@@ -29,6 +29,7 @@ header{
 .card p{
     color: rgb(136, 127, 127);
     margin: 1rem auto;
+    text-align: center;
 }
 
 .music-card{
@@ -75,7 +76,7 @@ header{
     text-decoration: none;
     color: #fff;
     background-color: rgb(91, 91, 252);
-    padding: 5px 2rem;
+    padding: 8px 5rem;
     border-radius: .5rem;
     transition: background .3s;
 }
@@ -86,7 +87,7 @@ header{
 .last-a{
     text-decoration: none;
     color: #ccc;
-    padding: 5px 2rem;
+    padding: 5px 5rem;
     margin: 0 0 1rem;
     transition: color .3s;
 }
