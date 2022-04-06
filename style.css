@@ -1,0 +1,95 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/pattern-background-desktop.svg) no-repeat;
+    background-color:rgba(137, 43, 226, 0.4);
+    display: flex;
+    align-items: center; justify-content: center;
+}
+
+.card{
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; align-items: center;
+    padding:0 1.5rem; border-radius: 1rem;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card h1{
+    margin-top: 2rem;
+}
+.card p{
+    color: rgb(136, 127, 127);
+    margin: 1rem auto;
+}
+
+.music-card{
+    display: flex;
+    align-items: center;
+    background-color: rgba(213, 244, 250, 0.37);
+    border-radius: 1rem;
+    margin: 1rem auto;
+    padding: 0 .8rem;
+    transition: all .3s;
+}
+
+.container-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin-right: 6rem;
+}
+
+.music-card img{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.container-text p{
+    font-size: 13px;
+}
+.container-text span{
+    font-size: 15px;
+}
+
+.music-card a:hover{
+    text-decoration: none;
+}
+
+.first-a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(91, 91, 252);
+    padding: 5px 2rem;
+    border-radius: .5rem;
+    transition: background .3s;
+}
+.first-a:hover{
+    background-color: rgba(91, 91, 252, 0.705);
+}
+
+.last-a{
+    text-decoration: none;
+    color: #ccc;
+    padding: 5px 2rem;
+    margin: 0 0 1rem;
+    transition: color .3s;
+}
+.last-a:hover{
+    color: black;
+}
